@@ -1,0 +1,64 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f1f5f9, #f8fafc);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 35px;
+  font-size: 1.5rem;
+  color: #334155;
+  font-weight: 600;
+}
+
+/* Resume Sections */
+.resume-html, 
+.resume-viewer {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+}
+
+/* List Styling */
+.resume-html ul {
+  margin-left: 25px;
+  padding-left: 0;
+}
+
+.resume-html ul li {
+  margin-bottom: 8px;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+/* Resume Viewer */
+.resume-viewer iframe {
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  height: 600px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.resume-viewer iframe:hover {
+  transform: scale(1.01);
+}

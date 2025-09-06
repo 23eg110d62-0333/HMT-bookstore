@@ -1,0 +1,126 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd369;
+    transform: scale(1.1);
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.intro h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1e3c72;
+}
+
+/* Featured Books */
+.featured-books {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.featured-books h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #2a5298;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.book {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.book p {
+    margin-top: 12px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #2a5298, #1e3c72);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 0.9rem;
+}
